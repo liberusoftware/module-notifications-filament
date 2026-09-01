@@ -13,4 +13,3 @@ final class NotificationsFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'notifications-filament');
     }
 }
-
