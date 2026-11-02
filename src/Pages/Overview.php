@@ -10,15 +10,5 @@ final class Overview extends Page
 {
     protected string $view = 'notifications-filament::overview';
 
-    protected static ?string $slug = 'overview-notifications';
-
-    public static function getNavigationLabel(): string
-    {
-        return __('filament.pages.notifications');
-    }
-
-    public function getTitle(): string
-    {
-        return __('filament.pages.notifications');
-    }
+    protected static ?string $title = 'Notifications';
 }
